@@ -1,0 +1,17 @@
+.container {
+  background-color: red;
+  padding: 10px;
+  width: 200px;
+  height: 300px;
+
+  .box {
+    margin-top: 3px;
+    width: 80px;
+
+    &.green-box {
+      background-color: green;
+    }  
+
+  }
+}
+
